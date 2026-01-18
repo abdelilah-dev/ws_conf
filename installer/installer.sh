@@ -17,5 +17,4 @@ if ! grep -q "angrycat" ~/.zshrc; then
     echo "angrycat" >> ~/.zshrc
 fi
 
-zsh 
 source ~/.zshrc
