@@ -6,7 +6,7 @@ RM = rm -rf
 SRC_DIR = srcs/
 BIN_DIR = mbin
 
-FILES = catmeme.c groovebattle.c usleep.c rctmeme.c 
+FILES = catmeme.c groovebattle.c usleep.c rctmeme.c usrbanner.c
 
 BIN_FILES = $(addprefix $(BIN_DIR)/, $(FILES:.c=))
 
