@@ -1,6 +1,6 @@
 !#/bin/zsh
 
-rm -rf ~/tt
+rm -rf ~/ws_conf
 
 git clone https://github.com/abdelilah-dev/ws_conf.git ~/ws_conf
 make -C ~/ws_conf
