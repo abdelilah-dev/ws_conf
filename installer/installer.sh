@@ -13,8 +13,8 @@ if ! grep -q "usrbanner" ~/.zshrc; then
     echo "usrbanner" >> ~/.zshrc
 fi
 
-if ! grep -q "rctmeme" ~/.zshrc; then
-    echo "rctmeme" >> ~/.zshrc
+if ! grep -q "angrycat" ~/.zshrc; then
+    echo "angrycat" >> ~/.zshrc
 fi
 
 zsh 
