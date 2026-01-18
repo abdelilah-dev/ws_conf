@@ -13,8 +13,8 @@ BIN_FILES = $(addprefix $(BIN_DIR)/, $(FILES:.c=))
 # t:
 # 	echo $(BIN_FILES);
 $(BIN_DIR)/% : $(SRC_DIR)%.c | $(BIN_DIR)
-	$(CC) $< -o $@
-	# chmod u+x $@
+	@$(CC) $< -o $@
+	@chmod u+x $@
 
 all: $(BIN_FILES)
 
