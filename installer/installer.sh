@@ -1,4 +1,4 @@
-!#/bin/zsh
+!#/bin/sh
 
 rm -rf ~/ws_conf
 
