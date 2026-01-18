@@ -1,0 +1,21 @@
+#include <unistd.h>
+#include <stdio.h>
+
+int main()
+{
+    printf("\x1B[32m");
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣶⣶⣄⠀⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⢿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⣤⣤⣤⣄⡀⡀⠀⠀⠀⠀⠀⠀⠀⠉⣹⣿⣿⠃⠀⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠈⠙⠛⠛⠿⠿⠿⠷⠶⠶⠶⠾⠿⠷⣿⣿⣿⡇⠀⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣐⣿⣿⣿⣦⣤⣄⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠈⠻⠿⠿⠿⠿⠿⠟⢻⣿⣿⣿⣿⣿⣿⡇\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⡿⠋⠉⣿⣿⡷\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⠋⠁⣀⣼⣿⠟⠁\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣯⠀⣼⣿⡿⠋⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣯⠀⣿⣿⡇⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣶⣶⣿⣿⠿⠀⠘⣿⡇⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠈⠁⢀⡀⢀⣤⣿⡇⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠿⠿⠿⠿⠿⠁⠀⠀⠀\n"); fflush(stdout); usleep(20000);
+    return (0);
+}
