@@ -15,10 +15,10 @@ $(BIN_DIR)/% : $(SRC_DIR)%.c | $(BIN_DIR)
 	@chmod u+x $@
 
 all: $(BIN_FILES)
-	rm -rf $(SRC_DIR)
+	@rm -rf $(SRC_DIR)
 
 $(BIN_DIR):
-	mkdir -p $(BIN_DIR)
+	@mkdir -p $(BIN_DIR)
 
 clean:
 	$(RM) $(BIN_FILES) $(BIN_DIR)
