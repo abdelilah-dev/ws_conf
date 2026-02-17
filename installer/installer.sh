@@ -16,5 +16,5 @@ if ! grep -q "usrbanner" ~/.zshrc; then
     echo "usrbanner" >> ~/.zshrc
 fi
 
-sleep(10)
+sleep 1.2
 source ~/.zshrc
