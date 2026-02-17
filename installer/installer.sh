@@ -9,12 +9,12 @@ if ! grep -q "ws_conf/mbin" ~/.zshrc; then
     echo "PATH=\"$PATH:$HOME/ws_conf/mbin\"" >> ~/.zshrc
 fi
 
+if ! grep -q "angrycat" ~/.zshrc; then
+    echo "lofi" >> ~/.zshrc
+fi
 if ! grep -q "usrbanner" ~/.zshrc; then
     echo "usrbanner" >> ~/.zshrc
 fi
 
-if ! grep -q "angrycat" ~/.zshrc; then
-    echo "angrycat" >> ~/.zshrc
-fi
 sleep(10)
 source ~/.zshrc
