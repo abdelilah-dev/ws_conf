@@ -16,5 +16,5 @@ fi
 if ! grep -q "angrycat" ~/.zshrc; then
     echo "angrycat" >> ~/.zshrc
 fi
-
+sleep(10)
 source ~/.zshrc
